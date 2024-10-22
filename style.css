@@ -1,0 +1,17 @@
+.block{
+    transition: all 0.3s ease;
+    border-radius: 8px;
+    background-color: lightcoral;
+}
+.block:hover{
+    transform: scale(1.1px);
+    /* background-color: rgb(208, 220, 220); */
+    box-shadow: 0px 4px 8px teal;
+    background-color: rgb(59,155,145) !important;
+}
+.block:hover > img{
+    filter: brightness(0) invert(1) !important;
+}
+.block:hover >h5{
+    color: white !important;
+}
